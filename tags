@@ -2657,11 +2657,11 @@ Awards & Certifications	index.html	/^                    <h2 class="mb-5">Awards
 Caroline Clark	index.html	/^                    <\/h1>$/;"	h
 Education	index.html	/^                    <h2 class="mb-5">Education<\/h2>$/;"	i
 Experience	index.html	/^                    <h2 class="mb-5">Experience<\/h2>$/;"	i
+General Assembly	index.html	/^                            <h3 class="mb-0">General Assembly<\/h3>$/;"	j
 Interests	index.html	/^                    <h2 class="mb-5">Interests<\/h2>$/;"	i
-James Buchanan High School	index.html	/^                            <h3 class="mb-0">James Buchanan High School<\/h3>$/;"	j
 Machine Learning Scientist	index.html	/^                            <h3 class="mb-0">Machine Learning Scientist<\/h3>$/;"	j
+Northwestern University	index.html	/^                            <h3 class="mb-0">Northwestern University<\/h3>$/;"	j
 Skills	index.html	/^                    <h2 class="mb-5">Skills<\/h2>$/;"	i
-University of Colorado Boulder	index.html	/^                            <h3 class="mb-0">University of Colorado Boulder<\/h3>$/;"	j
 a	css/styles.css	/^a {$/;"	s
 a > code	css/styles.css	/^a > code {$/;"	s
 a.badge-danger.focus	css/styles.css	/^a.badge-danger:focus, a.badge-danger.focus {$/;"	c
