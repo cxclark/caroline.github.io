@@ -2653,7 +2653,6 @@ Account Manager	index.html	/^                            <h3 class="mb-0">Accoun
 Analytical Lead	index.html	/^                            <h3 class="mb-0">Analytical Lead<\/h3>$/;"	j
 AnonymousFunction7634dce40100	js/scripts.js	/^    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {$/;"	f
 AnonymousFunction7634dce40200	js/scripts.js	/^    $(".js-scroll-trigger").click(function () {$/;"	f
-Awards & Certifications	index.html	/^                    <h2 class="mb-5">Awards & Certifications<\/h2>$/;"	i
 Caroline Clark	index.html	/^                    <\/h1>$/;"	h
 Convolutional Neural Network Using Only NumPy	index.html	/^                            <h3 class="mb-0">Convolutional Neural Network Using Only NumPy<\/h3>$/;"	j
 Education	index.html	/^                    <h2 class="mb-5">Education<\/h2>$/;"	i
