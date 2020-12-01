@@ -2661,6 +2661,7 @@ General Assembly	index.html	/^                            <h3 class="mb-0">Gener
 Interests	index.html	/^                    <h2 class="mb-5">Interests<\/h2>$/;"	i
 Machine Learning Scientist	index.html	/^                            <h3 class="mb-0">Machine Learning Scientist<\/h3>$/;"	j
 Northwestern University	index.html	/^                            <h3 class="mb-0">Northwestern University<\/h3>$/;"	j
+Predicting COVID-19 Using Demographic Data	index.html	/^                            <h3 class="mb-0">Predicting COVID-19 Using Demographic Data<\/h3>$/;"	j
 Projects	index.html	/^                    <h2 class="mb-5">Projects<\/h2>$/;"	i
 Skills	index.html	/^                    <h2 class="mb-5">Skills<\/h2>$/;"	i
 a	css/styles.css	/^a {$/;"	s
