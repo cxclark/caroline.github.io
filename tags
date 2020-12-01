@@ -2664,6 +2664,7 @@ Northwestern University	index.html	/^                            <h3 class="mb-0
 Predicting COVID-19 Using Demographic Data	index.html	/^                            <h3 class="mb-0">Predicting COVID-19 Using Demographic Data<\/h3>$/;"	j
 Projects	index.html	/^                    <h2 class="mb-5">Projects<\/h2>$/;"	i
 Skills	index.html	/^                    <h2 class="mb-5">Skills<\/h2>$/;"	i
+Text Classification With Natural Language Processing	index.html	/^                            <h3 class="mb-0">Text Classification With Natural Language Processin/;"	j
 a	css/styles.css	/^a {$/;"	s
 a > code	css/styles.css	/^a > code {$/;"	s
 a.badge-danger.focus	css/styles.css	/^a.badge-danger:focus, a.badge-danger.focus {$/;"	c
