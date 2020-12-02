@@ -5007,7 +5007,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #bd5d38;
+  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
