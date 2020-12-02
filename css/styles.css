@@ -3823,8 +3823,7 @@ input[type=button].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #17a2b8;
-  /*background-color: #bd5d38; COMMENTING OUT */
+  background-color: #bd5d38;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3856,8 +3855,7 @@ input[type=button].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #17a2b8;
-  /*background-color: #bd5d38; COMMENTING OUT */
+  background-color: #bd5d38;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4623,7 +4621,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #17a2b8;  /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  color: #bd5d38; 
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4652,8 +4650,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
-  border-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  background-color: #bd5d38; 
+  border-color: #bd5d38;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -4729,7 +4727,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  background-color: #bd5d38;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
@@ -5007,7 +5005,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  background-color: #bd5d38;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
