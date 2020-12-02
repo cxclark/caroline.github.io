@@ -4729,7 +4729,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
