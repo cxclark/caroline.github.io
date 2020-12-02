@@ -3978,8 +3978,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #708090;
-  /* THIS CONTROLS NAVBAR COLOR */
+  background-color: #bd5d38;
 
 }
 
@@ -4624,7 +4623,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #bd5d38;
+  color: #708090;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
