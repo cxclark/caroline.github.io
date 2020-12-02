@@ -5011,7 +5011,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #bd5d38;
+  background-color: #17a2b8;
+  /*background-color: #bd5d38; COMMENTING OUT */
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5092,8 +5093,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  /*background-color: #bd5d38;
+  border-color: #bd5d38; COMMENTING OUT */
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6124,7 +6127,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #17a2b8 !important;
+  /*background-color: #bd5d38 !important; COMMENTING OUT */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
