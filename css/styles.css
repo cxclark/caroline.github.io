@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #17a2b8; /* this is cyan */ 
+  --primary: #708090; /* Added in slate grey */
   /*--primary: #bd5d38; COMMENTING OUT */
   --secondary: #6c757d;
   --success: #28a745;
@@ -160,13 +160,14 @@ sup {
 }
 
 a {
-  color: #17a2b8;
+  color: #708090;
     /*color: #bd5d38; COMMENTING OUT */
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #4e5a65;
+  /*color: #824027; COMMENTING OUT */
   text-decoration: underline;
 }
 
