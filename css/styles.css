@@ -4732,8 +4732,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #17a2b8;
-  /*background-color: #bd5d38; COMMENTING OUT */
+  background-color: #bd5d38;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
