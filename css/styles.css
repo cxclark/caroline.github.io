@@ -3856,7 +3856,8 @@ input[type=button].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #bd5d38;
+  background-color: #17a2b8;
+  /*background-color: #bd5d38; COMMENTING OUT */
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3977,7 +3978,8 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #17a2b8;
+  /*background-color: #bd5d38; COMMENTING OUT */
 }
 
 .nav-fill .nav-item {
