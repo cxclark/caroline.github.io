@@ -5086,8 +5086,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
-  border-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  background-color: #708090; /* THIS CONTROLS NAVBAR COLOR, WAS bd5d38 */
+  border-color: #708090; /* THIS CONTROLS NAVBAR COLOR, WAS bd5d38 */
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
