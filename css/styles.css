@@ -2718,32 +2718,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #17a2b8;
-  border-color: #17a2b8;
-  /*color: #bd5d38;
-  border-color: #bd5d38; COMMENTING OUT */
+  color: #bd5d38;
+  border-color: #bd5d38;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
-  /*background-color: #bd5d38;
-  border-color: #bd5d38; COMMENTING OUT */
+  background-color: #bd5d38;
+  border-color: #bd5d38;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #17a2b8;
-  /*color: #bd5d38; COMMENTING OUT */
+  color: #bd5d38;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
-  /*background-color: #bd5d38;
-  border-color: #bd5d38; COMMENTING OUT */
+  background-color: #bd5d38;
+  border-color: #bd5d38;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
@@ -2926,8 +2919,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #17a2b8;
-  /*color: #bd5d38; COMMENTING OUT */
+  color: #bd5d38;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3204,8 +3196,7 @@ input[type=button].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #17a2b8;
-  /*background-color: #bd5d38; COMMENTING OUT */
+  background-color: #bd5d38;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
@@ -3531,10 +3522,8 @@ input[type=button].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #17a2b8;
-  background-color: #17a2b8;
-  /*border-color: #bd5d38;
-  background-color: #bd5d38; COMMENTING OUT*/
+  border-color: #bd5d38;
+  background-color: #bd5d38;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
@@ -6116,7 +6105,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #17a2b8 !important; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  background-color: #708090 !important; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
