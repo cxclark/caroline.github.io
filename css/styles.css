@@ -6256,7 +6256,8 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #bd5d38 !important;
+  border-color: #17a2b8 !important;
+  /*border-color: #bd5d38 !important; COMMENTING OUT */
 }
 
 .border-secondary {
@@ -9830,7 +9831,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #17a2b8 !important;
+  /*color: #bd5d38 !important; COMMENTING OUT */
 }
 
 a.text-primary:hover, a.text-primary:focus {
