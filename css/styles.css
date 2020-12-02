@@ -16,7 +16,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #17a2b8
+  --orange: #17a2b8 /* this is really cyan*/
   /*--orange: #bd5d38;*/
   --yellow: #ffc107;
   --green: #28a745;
@@ -25,7 +25,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #17a2b8;
+  --primary: #17a2b8; /* this is cyan */ 
 /*  --primary: #bd5d38; */
   --secondary: #6c757d;
   --success: #28a745;
@@ -161,7 +161,8 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #17a2b8;
+    /*color: #bd5d38;*/
   text-decoration: none;
   background-color: transparent;
 }
