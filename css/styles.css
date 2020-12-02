@@ -4623,7 +4623,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #708090;  /* THIS CONTROLS NAVBAR COLOR */
+  color: #708090;  /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4652,8 +4652,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  border-color: #17a2b8; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
 }
 .page-item.disabled .page-link {
   color: #6c757d;
