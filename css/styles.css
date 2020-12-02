@@ -9836,7 +9836,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #824027 !important; /* THIS IS THE DARK BROWN BACKGROUND HOVER TEXT */
 }
 
 .text-secondary {
