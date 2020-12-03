@@ -6105,7 +6105,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #708090 !important; /* THIS CONTROLS NAVBAR COLOR MAYBE, WAS bd5d38 */
+  background-color: #708090 !important; /* THIS CONTROLS NAVBAR COLOR, WAS bd5d38 */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6234,7 +6234,6 @@ button.bg-dark:focus {
 
 .border-primary {
   border-color: #bd5d38 !important;
-  /*border-color: #bd5d38 !important; COMMENTING OUT */
 }
 
 .border-secondary {
@@ -9808,12 +9807,12 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #708090 !important;
   /*color: #bd5d38 !important; COMMENTING OUT */
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important; /* THIS IS THE DARK BROWN BACKGROUND HOVER TEXT */
+  color: #824027 !important; 
 }
 
 .text-secondary {
