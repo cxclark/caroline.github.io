@@ -2649,18 +2649,11 @@
 :not(:disabled)	css/styles.css	/^[type=reset]:not(:disabled),$/;"	s
 :not(:disabled)	css/styles.css	/^[type=submit]:not(:disabled) {$/;"	s
 :root	css/styles.css	/^:root {$/;"	s
-Account Manager	index.html	/^                            <h3 class="mb-0">Account Manager<\/h3>$/;"	j
-Analytical Lead	index.html	/^                            <h3 class="mb-0">Analytical Lead<\/h3>$/;"	j
 AnonymousFunction7634dce40100	js/scripts.js	/^    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {$/;"	f
 AnonymousFunction7634dce40200	js/scripts.js	/^    $(".js-scroll-trigger").click(function () {$/;"	f
 Building a Convolutional Neural Network Using NumPy	index.html	/^                            <h3 class="mb-0">Building a Convolutional Neural Network Using NumPy/;"	j
 Caroline Clark	index.html	/^                    <\/h1>$/;"	h
-Education	index.html	/^                    <h2 class="mb-5">Education<\/h2>$/;"	i
-Experience	index.html	/^                    <h2 class="mb-5">Experience<\/h2>$/;"	i
-General Assembly	index.html	/^                            <h3 class="mb-0">General Assembly<\/h3>$/;"	j
 Interests	index.html	/^                    <h2 class="mb-5">Interests<\/h2>$/;"	i
-Machine Learning Scientist	index.html	/^                            <h3 class="mb-0">Machine Learning Scientist<\/h3>$/;"	j
-Northwestern University	index.html	/^                            <h3 class="mb-0">Northwestern University<\/h3>$/;"	j
 Predicting COVID-19 Using Demographic Data	index.html	/^                            <h3 class="mb-0">Predicting COVID-19 Using Demographic Data<\/h3>$/;"	j
 Projects	index.html	/^                    <h2 class="mb-5">Projects<\/h2>$/;"	i
 Research on Resolution and Human Classification Error	index.html	/^                            <h3 class="mb-0">Research on Resolution and Human Classification Err/;"	j
