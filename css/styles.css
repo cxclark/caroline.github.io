@@ -9808,7 +9808,7 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #708090 !important;
-  /*color: #bd5d38 !important; COMMENTING OUT */
+  /*color: #bd5d38 !important; COMMENTING OUT, NOT SURE WHAT THIS REPRESENTS */
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10109,7 +10109,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #708090; /* COMMENTING OUT, BUTTON BACKGROUND MAYBE, was bd5d38;*/
 }
 
 .dev-icons {
