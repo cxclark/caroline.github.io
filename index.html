@@ -34,8 +34,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="assets/img/Caroline_Clark_Resume.pdf">Resume</a></li>
                 </ul>
@@ -45,6 +45,7 @@
 
         <!-- Page Content-->
         <div class="container-fluid p-0">
+
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
@@ -52,6 +53,9 @@
                         Caroline
                         <span class="text-primary">Clark</span>
                     </h1>
+                    <h2 class "mb-0">
+                        Machine Learning Engineer
+                    </h2>
                     <div class="subheading mb-5">
                         Washington DC · (847) 987-0250 ·
                         <a href="mailto:caroline@humanperspectives.com">caroline@humanperspectives.com</a>
@@ -65,6 +69,87 @@
             </section>
             <hr class="m-0" />
 
+
+
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+
+                            <h3 class="mb-0">Building a Convolutional Neural Network Using NumPy</h3>
+                            <br>
+                            <img class="img-responsive" src="assets/img/model_demo.jpg" align="right">
+                            <div>
+                                <p>What are the most critical components to building an image classifier using only NumPy?
+                                <p>The tools for developing neural networks are becoming increasingly streamlined and robust. This has the benefit of making deep learning very accessible, but it abstracts away neural network detail from the practitioner. Even with robust tools, training neural networks is still challenging. A good understanding of how neural nets work and converge may lead to greater project success.</p>
+                                <p>This project builds a convolutional neural network from scratch using only NumPy. To achieve the forward and backward propagation steps necessary for training, the network is designed as a series of layers. In Python, these layers are represented as classes, with forward and backward propagation methods. A final network class stacks these layers together.</p>
+                                <p>The library currently supports these layers: Convolutions, ReLU, Max Pooling, Flatten, Dense, and Softmax.</p>
+                                <p>To see this project, 
+                                <a href="https://github.com/cxclark/hive_ml" target="_blank">
+                                    <strong>click here</strong>
+                                </a></p>
+                            </div>
+
+                            <br>
+                            <br>
+
+                            <h3 class="mb-0">Predicting COVID-19 Using Demographic Data</h3>
+                            <br>
+                            <img class="img-responsive" src="assets/img/covid19.jpg" align="right">
+                            <div>
+                                <p>Is is possible to predict COVID-19 severity using demographic data?</p>
+                                <p>Studies have indicated that COVID-19 affects parts of the population more severely, such as older individuals and males. At the same time, the World Health Organization has stated that lockdowns and other restrictive measures meant to stop the spread of the virus "can have a profound negative impact on individuals, communities, and societies by bringing social and economic life to a near stop."</p> 
+                                <p>This project examines county-level COVID-19 testing, case, and death data alongside county-level demographic data for five U.S. states. Demographic data such as age, gender, race, and income per capita is collected via the US Census Bureau's API. The data is modeled both across states and individually.</p>
+                                <p>These models indicate that publicly available information has the potential to inform resource allocation and targeted preventative measures during the COVID-19 pandemic.</p>
+                                <br>
+                                To see this project, 
+                                <a href="https://github.com/cxclark/predicting-covid19" target="_blank">
+                                    <strong>click here</strong>
+                                </a>
+                            </div>
+                            
+                            <br>
+                            <br>
+
+                            <h3 class="mb-0">Text Classification With Natural Language Processing</h3>
+                            <br>
+                            <img class="img-responsive" src="assets/img/nlp_overlap.jpg" align="right">
+                            <div>
+                                <p>Can a model be built to accurately classify text as belonging to either the r/artifical and r/datascience subreddits?</p>
+                                <p>Subreddit post data was collected using the Pushshift API. The data was cleaned and exploratory data analysis was conducted, such as top word overlap.</p> 
+                                <p>Several models were compared, with Multinomial Naive Bayes used a baseline. The best-performing model was Logistic Regression with TfdifVectorizer. It achieved 92.66% accuracy on test data, with a recall score of 93.08% and precision of 93.01%. Interpretable word coefficients were extracted from the model and visualized.</p>
+                                <br>
+                                To see this project, 
+                                <a href="https://github.com/cxclark/nlp_classification" target="_blank">
+                                    <strong>click here</strong>
+                                </a>
+                            </div>
+
+                            <br>
+                            <br>
+
+                            <h3 class="mb-0">Research on Resolution and Human Classification Error</h3>
+                            <br>
+                            <img class="img-responsive" src="assets/img/human_perf.jpg" align="right">
+                            <div>
+                                <p>I co-authored a paper currently in pre-print: <i>Deriving a Quantitative Relationship Between Resolution and Human Classification Error</i></p>
+                                <p>For machine learning perception problems, human-level classification performance is used as an estimate of top algorithm performance. Knowing this 1) provides a benchmark for model performance, 2) tells a project manager what type of data to obtain for human labelers in order to get accurate labels, and 3) enables ground-truth analysis to be carried out smoothly. In this empirical study, we explored the relationship between resolution and human classification performance using the MNIST data set down-sampled to various resolutions.</p>
+                                <p>The quantitative heuristic we derived could provie useful for predicting machine model performance, predicting data storage requirements, and saving valuable resources in the deployment of machine learning projects.</p>
+                                <br>
+                                To see this paper on arXiv.org, 
+                                <a href="https://arxiv.org/abs/1908.09183" target="_blank">
+                                    <strong>click here</strong>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
 
 
             <!-- Skills-->
@@ -174,87 +259,6 @@
             <hr class="m-0" />
 
 
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-
-                            <h3 class="mb-0">Building a Convolutional Neural Network Using NumPy</h3>
-                            <br>
-                            <img class="img-responsive" src="assets/img/model_demo.jpg" align="right">
-                            <div>
-                                <p>What are the most critical components to building an image classifier using only NumPy?
-                                <p>The tools for developing neural networks are becoming increasingly streamlined and robust. This has the benefit of making deep learning very accessible, but it abstracts away neural network detail from the practitioner. Even with robust tools, training neural networks is still challenging. A good understanding of how neural nets work and converge may lead to greater project success.</p>
-                                <p>This project builds a convolutional neural network from scratch using only NumPy. To achieve the forward and backward propagation steps necessary for training, the network is designed as a series of layers. In Python, these layers are represented as classes, with forward and backward propagation methods. A final network class stacks these layers together.</p>
-                                <p>The library currently supports these layers: Convolutions, ReLU, Max Pooling, Flatten, Dense, and Softmax.</p>
-                                <p>To see this project, 
-                                <a href="https://github.com/cxclark/hive_ml" target="_blank">
-                                    <strong>click here</strong>
-                                </a></p>
-                            </div>
-
-                            <br>
-                            <br>
-
-                            <h3 class="mb-0">Predicting COVID-19 Using Demographic Data</h3>
-                            <br>
-                            <img class="img-responsive" src="assets/img/covid19.jpg" align="right">
-                            <div>
-                                <p>Is is possible to predict COVID-19 severity using demographic data?</p>
-                                <p>Studies have indicated that COVID-19 affects parts of the population more severely, such as older individuals and males. At the same time, the World Health Organization has stated that lockdowns and other restrictive measures meant to stop the spread of the virus "can have a profound negative impact on individuals, communities, and societies by bringing social and economic life to a near stop."</p> 
-                                <p>This project examines county-level COVID-19 testing, case, and death data alongside county-level demographic data for five U.S. states. Demographic data such as age, gender, race, and income per capita is collected via the US Census Bureau's API. The data is modeled both across states and individually.</p>
-                                <p>These models indicate that publicly available information has the potential to inform resource allocation and targeted preventative measures during the COVID-19 pandemic.</p>
-                                <br>
-                                To see this project, 
-                                <a href="https://github.com/cxclark/predicting-covid19" target="_blank">
-                                    <strong>click here</strong>
-                                </a>
-                            </div>
-                            
-                            <br>
-                            <br>
-
-                            <h3 class="mb-0">Text Classification With Natural Language Processing</h3>
-                            <br>
-                            <img class="img-responsive" src="assets/img/nlp_overlap.jpg" align="right">
-                            <div>
-                                <p>Can a model be built to accurately classify text as belonging to either the r/artifical and r/datascience subreddits?</p>
-                                <p>Subreddit post data was collected using the Pushshift API. The data was cleaned and exploratory data analysis was conducted, such as top word overlap.</p> 
-                                <p>Several models were compared, with Multinomial Naive Bayes used a baseline. The best-performing model was Logistic Regression with TfdifVectorizer. It achieved 92.66% accuracy on test data, with a recall score of 93.08% and precision of 93.01%. Interpretable word coefficients were extracted from the model and visualized.</p>
-                                <br>
-                                To see this project, 
-                                <a href="https://github.com/cxclark/nlp_classification" target="_blank">
-                                    <strong>click here</strong>
-                                </a>
-                            </div>
-
-                            <br>
-                            <br>
-
-                            <h3 class="mb-0">Research on Resolution and Human Classification Error</h3>
-                            <br>
-                            <img class="img-responsive" src="assets/img/human_perf.jpg" align="right">
-                            <div>
-                                <p>I co-authored a paper currently in pre-print: <i>Deriving a Quantitative Relationship Between Resolution and Human Classification Error</i></p>
-                                <p>For machine learning perception problems, human-level classification performance is used as an estimate of top algorithm performance. Knowing this 1) provides a benchmark for model performance, 2) tells a project manager what type of data to obtain for human labelers in order to get accurate labels, and 3) enables ground-truth analysis to be carried out smoothly. In this empirical study, we explored the relationship between resolution and human classification performance using the MNIST data set down-sampled to various resolutions.</p>
-                                <p>The quantitative heuristic we derived could provie useful for predicting machine model performance, predicting data storage requirements, and saving valuable resources in the deployment of machine learning projects.</p>
-                                <br>
-                                To see this paper on arXiv.org, 
-                                <a href="https://arxiv.org/abs/1908.09183" target="_blank">
-                                    <strong>click here</strong>
-                                </a>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-
-
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
@@ -264,7 +268,6 @@
                 </div>
             </section>
             <hr class="m-0" />
-
 
 
         <!-- Bootstrap core JS-->
